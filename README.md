@@ -221,7 +221,7 @@ An external actor from `159.26.106.84` performed a brute-force RDP attack, with 
 ### **Where:**
 
 - **Target System:** slflarewinsysmo
-- **Attack Origin:** ________________ *(geographic location if known)*
+- **Attack Origin:** London, England
 - **Network Segment:** 159.26.106.0/24
 - **Affected Directories/Files:** `C:\Users\Public\update_check.ps1` (executed), `msupdate.exe` (executed), `backup_sync.zip` (staged for exfiltration), scheduled task `C:\Windows\System32\Tasks\MicrosoftUpdateSync` (persistence), and `C:\Windows\Temp` (added to Defender exclusions). Additional likely locations to check: `C:\Users\Public`, `C:\Windows\Temp`, `%APPDATA%`, and the user Downloads folder.
 
